@@ -1,0 +1,134 @@
+#nav{
+   padding: 15px;
+   background-image:linear-gradient(90deg,lightblue,brown);
+   color:white;
+   text-align: center;
+}
+#nav h3{
+  text-shadow: 1.1px 1px purple;
+}
+#icons{
+  background-image: linear-gradient(90deg,lightblue,brown);
+  
+  
+  
+}
+#icons i{
+  padding:19px;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  
+}
+form{
+  background-color:lightblue;
+  padding: 15px;
+  
+  
+  
+}
+input[type=search]{
+  width: 50%;
+  padding: 15px;
+  border:1px solid lightcyan;
+  
+  
+  
+  
+}
+input[type=submit]{
+  padding: 5px;
+  color:red;
+  
+  
+  
+}
+input[type=search]:focus{
+  width: 50%;
+  padding: 15px;
+  outline:none;
+  border: none;
+  border-bottom: solid;
+  
+ border-bottom-color:teal;
+  
+  
+  
+  
+}
+ul{
+  list-style-type: none;
+  
+  
+  
+}
+ul li {
+  padding: 15px;
+  
+}
+ul li:nth-child(even){
+  background-color: pink;
+  
+  
+}
+ul li a{
+  text-decoration: none;
+  color:indigo;
+  
+  
+  
+  
+  
+}
+#prof{
+position:relative;
+background-color:black;
+color:white;
+
+
+}
+#prof p{
+
+padding:25px;
+text-align:center;
+font-weight:bold;
+
+}
+#prof a{
+text-decoration:underline;
+font-family: cursive;
+color:red;
+}
+@media only screen and (min-width:788px){
+#icons i {
+  padding:65px;
+  
+  
+}
+#nav h3{
+  
+  font-size: 3em;
+  
+}
+input[type=search]{
+  padding:25px;
+}
+input[type=submit]{
+  padding:15px;
+  font-size: 18px;
+  width:10%;
+  border:1px solid lightgray;
+  
+}
+ul li{
+  padding:25px;
+  font-size: 30px;
+  
+}
+#prof {
+  
+  font-size: 25px;
+}
+}
